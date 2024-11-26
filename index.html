@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO1</title>
+</head>
+<body>
+  <img id="foto" src="img/Ehe_logo.svg" alt="Escuela de hosteleria" width="100" height="100">
+  <form action="@" autocomplete="on">
+    <label for="pname">Nombre</label><br><br>
+    <input type="text" id="pname" name="pname"><br><br>
+    <label for="sname">Apellidos</label><br><br>
+    <input type="text" id="tname" name="tname"><br><br>
+    <label for="email">Email de contacto</label><br><br>
+    <input type="email" id="email" name="email" autocomplete="off"><br><br>
+    <label for="tlf">Num. de contacto</label><br><br>
+    <input type="text" id="tlf" name="tlf"><br><br>
+  <form action="/action_page.php">
+    <label for="contact">Motivo del contacto</label><br><br>
+    <select id="contact" name="motivos">
+       <option value="informacion">Información</option>
+       <option value="inscribirse">Inscribirse en un curso</option>
+       <option value="incidencia">Incidencia</option>
+       <option value="otro">Otro motivo</option>
+      </select>
+    </form><br>
+    <label for="problem">Descripción del problema</label><br><br> 
+    <form action="/action_page.php">
+      <textarea name="message" rows="10" cols="30"></textarea>
+      <br><br>
+      <input type="submit">
+    </form>
+</body>
+</html>
